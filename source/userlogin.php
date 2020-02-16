@@ -5,7 +5,7 @@ session_start();
 
 //check for required fields from the form
 if (!(filter_input(INPUT_POST,'email')) || !(filter_input(INPUT_POST,'password'))) {
-	header("Location: userlogin.html");
+	header("Location: index.html");
 	exit;
 }
 
@@ -47,7 +47,7 @@ if (mysqli_connect_errno()) {
         header("Location: mainmenu.php");
     } else {
         //redirect back to login form if not authorized
-        header("Location: userlogin.html");
+        header("Location: index.html");
         exit;
     }
 }

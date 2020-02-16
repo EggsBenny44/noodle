@@ -1,0 +1,84 @@
+<html>
+<head>
+  <title>User Login Form</title>
+    <meta name="msapplication-square70x70logo" content="/site-tile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="favicons/site-tile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="favicons/site-tile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="favicons/site-tile-310x310.png">
+    <meta name="msapplication-TileColor" content="#0078d7">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicons/favicon.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="36x36" href="favicons/android-chrome-36x36.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicons/android-chrome-48x48.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="favicons/android-chrome-72x72.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/android-chrome-96x96.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="favicons/android-chrome-128x128.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="favicons/android-chrome-144x144.png">
+    <link rel="icon" type="image/png" sizes="152x152" href="favicons/android-chrome-152x152.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="favicons/android-chrome-256x256.png">
+    <link rel="icon" type="image/png" sizes="384x384" href="favicons/android-chrome-384x384.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicons/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="36x36" href="favicons/icon-36x36.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicons/icon-48x48.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="favicons/icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="favicons/icon-128x128.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="favicons/icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="152x152" href="favicons/icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="favicons/icon-160x160.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="favicons/icon-196x196.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="favicons/icon-256x256.png">
+    <link rel="icon" type="image/png" sizes="384x384" href="favicons/icon-384x384.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicons/icon-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/icon-16x16.png">
+    <link rel="icon" type="image/png" sizes="24x24" href="favicons/icon-24x24.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/icon-32x32.png">
+    <link rel="manifest" href="favicons/manifest.json">   
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homenaje&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-add-css="false"></script>
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/svg-with-js.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/myStyle.css?1234">
+</head>
+<body bgcolor="#add8e6">
+   <div class="contents">
+      <div class="top">
+         <div class="title">
+            <div class="title-logo"><img src="./img/noodle-l.png"></div>
+         </div>
+      </div>
+      <div class="login">
+         <form method="post" action="userlogin.php">
+            <h1>NOODLE</h1>
+            <p><input type="email" name="email" size="60" class="icon-placeholder" placeholder="email address"  required/></p>
+            <p><input type="password" name="password" size="60" class="icon-placeholder" placeholder="password" required/></p>
+            <p style="color: #F46B75; font-family: 'Montserrat', sans-serif;">* Demo: Please enter email "noodle@dmin" and password "noodle"</p>
+            <input type="submit" name="submit" style="width:100%;" class="submit-btn" value="SIGN IN"/><BR>
+            <input type="button" name="signup" id="signup" style="width:100%;" class="submit-btn" value="CREATE ACCOUNT"/>
+         </form>
+      </div>
+   </div>
+
+
+</body>
+<script type="text/javascript">
+   $(function(){
+      $('#signup').on('click',function(){
+         window.location.href = "createaccount.php";
+      })
+   });
+</script>
+</html>
