@@ -167,21 +167,23 @@ fieldset {
 .login {
     position:absolute;
     display: flex;
+    align-self: center;
     padding: 10px 300px;
     top: 100px;
     z-index: 100;
 }
 .title {
-    display: flex;
+    display: inline-flex;
     width: 200px;
     height: 200px;
     top: 100px;
-    margin-left: 30px;
+    margin-left: 150px;
     border-radius: 50%;
     background-color: #26BAEE;
     align-items: center;
     justify-items: center;
     position: relative;
+
     z-index: 98;
 }
 .title-logo {
