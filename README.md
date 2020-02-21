@@ -1,11 +1,12 @@
-# noodle
-# Name: NOODLE
+# Name: 
+noodle
 
 This is a self-learning application, like as Quizlet or moodle quizes. 
 It can create their own tests and practice those tests. 
 Also, users can review their submission history of the tests.
 
-
+# Demo
+https://noodle.eggs-benny.com
 
 # Features
 
