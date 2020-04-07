@@ -3,7 +3,7 @@ function doDB() {
 	global $mysqli;
 
 	//connect to server and select database; you may need it
-	$mysqli = mysqli_connect("ns1121.websiteservername.com", "yoyo_noodle", "RvpXul_iss72", "yoyo_noodleDB");
+	$mysqli = mysqli_connect("dummy.websiteservername.com", "dummy_noodle", "dummy_psw", "dummy_noodleDB");
 
 	//if connection fails, stop script execution
 	if (mysqli_connect_errno()) {
