@@ -17,14 +17,17 @@ https://noodle.eggs-benny.com
 
 - TEST MAINTENANCE 
   It can manage the tests itself, such as title and status which is can be opened to user or not.
+![test](https://github.com/EggsBenny44/noodle/blob/images/images/03_CreateTest.png)
 
 - QA MAINTENANCE 
   It can manage the Question and Answers for each test.
   Each question defines from 3 types of style; multiple-choice, True / Flase, and short answer.
+![qa](https://github.com/EggsBenny44/noodle/blob/images/images/04_CreateQA.png)
 
 - TRY TEST
   Users can choose the test from the enabled tests list and take a test.
   The test form is dynamically created from registered questions.
+![qa](https://github.com/EggsBenny44/noodle/blob/images/images/05_Test.png)
 
 - SUBMIT TEST
   After submitting the test, it can be automatically graded and those results are stored and kept in the database. 
@@ -33,6 +36,7 @@ https://noodle.eggs-benny.com
   Users can see the past results of the tests.
   All results are kept exact all information includes test name, question, and answers at that time 
   since questions and answers could be changed by maintenance. 
+![review](https://github.com/EggsBenny44/noodle/blob/images/images/06_Review.png)
 
 # Author
 Eggs Benny
